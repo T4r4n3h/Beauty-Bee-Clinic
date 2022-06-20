@@ -1,4 +1,5 @@
 import Billboard from "./components/Billboard";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 
 import ServiceSection from "./components/ServiceSection";
@@ -11,8 +12,13 @@ function App() {
         <Header/>
         <Billboard/>
         <ServiceSection/>
-        
 
+
+
+
+
+        
+      <Footer/>
 
       </div>
      </div>

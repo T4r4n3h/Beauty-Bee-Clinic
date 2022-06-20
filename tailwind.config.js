@@ -13,11 +13,11 @@ module.exports = {
       },
       backgroundImage:{
         'chryblsm':"url(../public/img/ChryBlsm.png)",
-        'botox':"url(../public/img/botox.png",
+        'botox':"url(../public/img/botox.png)",
         'chemPeel':"url(../public/img/chemPeel.png",
-        'fat': "url(../public/img/fatDesolving.png",
-        'filler': "url(../public/img/filler.png",
-        'vitamin': "url(../public/img/vitamineInjection.png",
+        'fat': "url(../public/img/fatDesolving.png)",
+        'filler': "url(../public/img/filler.png)",
+        'vitamin': "url(../public/img/vitamineInjection.png)",
       },
       backgroungSize: {
         '150%':"150%"
