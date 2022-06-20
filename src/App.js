@@ -1,6 +1,6 @@
 import Billboard from "./components/Billboard";
 import Header from "./components/Header";
-import MblServiceSection from "./components/MblServiceSection";
+
 import ServiceSection from "./components/ServiceSection";
 
 
@@ -11,7 +11,7 @@ function App() {
         <Header/>
         <Billboard/>
         <ServiceSection/>
-        <MblServiceSection/>
+        
 
 
       </div>

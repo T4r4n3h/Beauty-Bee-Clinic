@@ -2,7 +2,7 @@
 
 function Billboard() {
   return (
-    <div className=" billboard   h-48 md:h-96 md:mt-14  bg-white rounded-3xl flex bg-chryblsm bg-no-repeat bg-right-top bg-contain lg:bg-[length:710px_400px]">
+    <div className=" billboard   h-48 md:h-96 md:mt-14  bg-white rounded-3xl flex bg-chryblsm bg-no-repeat bg-right-top bg-contain lg:bg-[length:710px_400px] xl:bg[length:900px_600px]">
         <div className="msg  mt-8 lg:mt-20 ml-10 lg:ml-28">
             <p className="message text-xl lg:text-6xl leading">BECAUSE YOU DESERVE </p>
              <p className="text-4xl md:text-8xl mt-2 lg:mt-6">BEAUTY</p>
