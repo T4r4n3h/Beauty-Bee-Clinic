@@ -12,7 +12,7 @@ function ServiceSection() {
     },
     {
         name:"Derma Filler",
-        description:"Dermal fillers are gel-like substances injected under the skin. Dermal fillers are meant to create a smoother or fuller appearance, or both. The FDA regulates dermal fillers as medical devices",
+        description:"Dermal fillers are gel-like substances injected under the skin. Dermal fillers are meant to create a smoother or fuller appearance, or both.",
         img:"../../public/img/filler.png",
         price:"$500 - $600",
         duration:"60 minutes"
@@ -40,11 +40,11 @@ function ServiceSection() {
 ]
 
   return (
-    <div className="ServiceSection border-2 border-purple-800 h-screen mt-10 ">
+    <div className="ServiceSection border-2 border-purple-800 md:h-screen mt-10 ">
 
         <div className="msg border-2 border-yellow-400 w-5/6 h-1/5 mx-auto">
             <h1 className=" text-xl md:text-4xl">What Do You Need?</h1>
-            <p className=" md:text-2xl md:leading-10 mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde a eaque eligendi?s.</p>
+            <p className=" md:text-2xl md:leading-10 mt-4">Please check below and book your service.</p>
         </div>
 
         <ServiceCardSection/>
