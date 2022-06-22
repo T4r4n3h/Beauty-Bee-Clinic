@@ -18,6 +18,7 @@ module.exports = {
         'fat': "url(../public/img/fatDesolving.png)",
         'filler': "url(../public/img/filler.png)",
         'vitamin': "url(../public/img/vitamineInjection.png)",
+        'test': "url(../public/img/Testcover.png)",
       },
       backgroungSize: {
         '150%':"150%"

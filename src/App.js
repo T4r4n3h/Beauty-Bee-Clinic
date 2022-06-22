@@ -3,6 +3,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 
 import ServiceSection from "./components/ServiceSection";
+import Testimonitals from "./components/Testimonitals";
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Header/>
         <Billboard/>
         <ServiceSection/>
+        <Testimonitals/>
 
 
 

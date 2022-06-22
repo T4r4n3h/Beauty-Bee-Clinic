@@ -11,7 +11,7 @@ function ServiceCardSection() {
             }}
             >
                 <div className="botoximg bg-botox bg-no-repeat bg-cover bg-center h-1/2 rounded-3xl  w-full"></div>
-                <div className="crdtext  w-full border border-gray-400">
+                <div className="crdtext  w-full">
                     <h3 className="srvHeader font-bold text-lg mt-5">Neurotoxin Injections</h3>
                     <p className="srvtxt text-lg leading-6">
                         Botox injections block certain chemical signals from nerves, mostly signals that cause muscles to contract. The most common use of these injections is to temporarily relax the facial muscles that cause wrinkles in the forehead and around the eyes.
@@ -91,7 +91,7 @@ function ServiceCardSection() {
                     }}
                 className="bottomRight ml-3 w-1/2 border bg-white rounded-3xl">
                 <div className="img  h-2/5 bg-chemPeel bg-no-repeat bg-cover bg-center rounded-t-3xl"></div>
-                <div className="crdtext">
+                <div className="crdtext ml-3">
                     <h1 className="srvHeader font-bold text-lg mt-5">Chemical Peels</h1>
                     <p className="srvtxt text-lg leading-6">This is a technique used to improve the texture of the skin. It is intended to remove the outermost layer of the skin resulting wound healing process to regenerate new tissue</p>
                     <button className="text-[#C2B6D4] font-black mt-6">LEARN MORE <svg className='inline font-black' width="16" height="16" viewBox="0 0 16 16" fill="none"      xmlns="http://www.w3.org/2000/svg">
