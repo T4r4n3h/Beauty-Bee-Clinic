@@ -6,8 +6,8 @@ function ServiceItem(props) {
     style={{
         boxShadow:"0px 8px 0px #B3D4CE"
     }}
-    className='w-2/5 h-24 mt-4 rounded-3xl bg-btn-blue  border-2 border-purple-700'>
-        <h3 className="srvHeader font-bold text-lg mt-5 text-center">{props.name}</h3>
+    className='w-4/5 h-20 mt-4 rounded-3xl bg-btn-blue'>
+        <h3 className="srvHeader font-bold text-lg mt-6 text-center">{props.name}</h3>
        </div>
   )
 }

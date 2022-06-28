@@ -18,9 +18,20 @@
 }
 
 body{
-  background-image: radial-gradient(77.71% 153.67% at 75.94% 29.39%, #D8D4E6 0%, #D1E3E6 55.56%, #E6EAF2 100%); 
+ 
+  background-color: #d1e3e6;
+  background-image: linear-gradient(77deg, #d1e3e6 0%, #d8d4e6 99%);
+  
+
+
   background-repeat: no-repeat;
   font-family: Optima;
   color:#54301A;
 }
-
+p{
+  font-family: 'Helvetica Neue';
+  font-weight: 300;
+}
+.message{
+  font-family: Optima;
+}
