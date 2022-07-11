@@ -10,7 +10,7 @@ import Testimonitals from "./components/Testimonitals";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App mx-2">
       <div className="container  mx-auto">
         <Header/>
         <Billboard/>

@@ -35,3 +35,48 @@ p{
 .message{
   font-family: Optima;
 }
+
+.container {
+  
+  /* position:absolute; */
+   perspective: 800;
+  -webkit-perspective: 800;
+}
+.card {
+
+  
+  transform-style:preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  position:relative;
+  transform: all 2s ease;
+  border-radius: 10px;
+  
+}
+.card:hover{
+  transform:rotateY(180deg);
+}
+.front,.back{
+  backface-visibility:hidden;
+  -webkit-backface-visibility:hidden;
+}
+.back {
+  background-color: rgb(225, 216, 233);
+  position: relative;
+  /* bottom: 440px; */
+  transform:rotateY(180deg)
+}
+.leftTopCon{
+  @apply h-3/5 px-6 pt-4 rounded-3xl bg-white
+} 
+.leftBottomCon{
+  @apply h-2/6 rounded-3xl bg-white mt-6 py-6
+}
+.rightTopCon{
+  @apply h-2/6 rounded-3xl bg-white py-6
+}
+.bottomLeftCon{
+  @apply mr-3 w-1/2 bg-white rounded-3xl
+}
+.bottomRightCon{
+  @apply ml-3 w-1/2 border bg-white rounded-3xl
+}
