@@ -1,12 +1,41 @@
+import { useState } from 'react';
+import {Link} from 'react-scroll';
+import NavMbl from './NavMbl';
 
-// import {Link} from 'react-router-dom'
-function Header
-() {
+
+
+const Header = () => {
+  const [menuClass, setMenuClass] = useState("hide");
+  const [burger, setBurger] = useState("show");
+  const [drop, setDrop] = useState("hide");
+
+  const hideMenu = () => {
+    console.log("you are clicking on back button");
+    setMenuClass("hide");
+    setBurger("show");
+    setDrop("hide");
+  };
+
+  const showMenu = () => {
+    console.log("this is to show");
+    setMenuClass("showMenu");
+    setBurger("hide");
+    setDrop("");
+  };
+
   return (
     <div className="Header flex justify-between md:mt-10 ">
         <nav className="nav hidden lg:flex lg:justify-between " >
-            <a className="text-2xl" href="#">Services & Pricing</a>            
-            <a className="text-2xl ml-10" href="#">About</a>
+          <ul className='flex cursor-pointer'>
+            <li className="text-2xl">Services & Pricing</li> 
+            <li className="text-2xl ml-10">
+              <Link to="About" smooth="true"duration={1000}>About</Link>
+            </li> 
+    
+  
+          </ul>
+            {/* <a className="text-2xl" href="#">Services & Pricing</a>            
+            <a className="text-2xl ml-10" href="#">About</a> */}
         </nav>
         <div className="logo font-typo font-bold text-2xl lg:text-4xl">Beauty Bee Clinic</div>
         <div className="number hidden  md:block">
@@ -23,6 +52,7 @@ function Header
              </svg>
         </button>
         </div>
+        <NavMbl showMenu={menuClass} hideMenu={hideMenu}/>
     </div>
   )
 }

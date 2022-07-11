@@ -55,6 +55,9 @@ p{
 .card:hover{
   transform:rotateY(180deg);
 }
+.LrnBtn:hover{
+  transform:rotateY(180deg);
+}
 .front,.back{
   backface-visibility:hidden;
   -webkit-backface-visibility:hidden;
@@ -79,4 +82,10 @@ p{
 }
 .bottomRightCon{
   @apply ml-3 w-1/2 border bg-white rounded-3xl
+}
+.showMenu{
+  @apply bg-[#d1e3e6] opacity-75 absolute inset-y-[40px] right-0 w-1/2  h-40 text-right font-medium pr-6 
+}
+.hide{
+  @apply hidden   
 }

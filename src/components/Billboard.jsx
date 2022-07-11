@@ -7,13 +7,13 @@ function Billboard() {
             <p className="message text-xl lg:text-7xl leading ">BECAUSE YOU DESERVE </p>
              <p className="message text-4xl lg:text-9xl mt-2 lg:mt-6">BEAUTY</p>
 
-             <button className=" btn mt-4 md:mt-10 bg-btn-blue md:ml-2 rounded-full px-4 py-4 md:w-2/5 "
+             <button className=" btn mt-4 md:mt-10 bg-btn-blue md:ml-2 rounded-full px-2 md:px-4 py-1 md:py-4 md:w-2/5 "
              style={{
               boxShadow:"0px 8px 0px #C2B6D4"
              }}
              >
 
-              <a href="https://calendly.com" target="_blank"className=" md:hidden" id=""> Book Here</a>
+              <a href="https://calendly.com" target="_blank"className=" md:hidden" id=""> Book Now</a>
               <a href="https://calendly.com" target="_blank"className="hidden md:block lg:text-2xl" id=""> Book Your Appointment</a>
              </button>
             
