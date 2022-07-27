@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import Promotion from "./components/Promotion";
 
 import ServiceSection from "./components/ServiceSection";
-import Testimonitals from "./components/Testimonitals";
+import Testimonials from "./components/Testimonials";
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
         <Header/>
         <Billboard/>
         <ServiceSection/>
-        <Testimonitals/>
+        <Testimonials/>
         <Promotion/>
         <About/>
 
