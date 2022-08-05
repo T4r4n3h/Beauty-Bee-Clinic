@@ -61,7 +61,7 @@ p{
   -webkit-backface-visibility:hidden;
 }
 .back {
-  background-color: rgb(225, 216, 233);
+  background-color:white;
   position: relative;
   /* bottom: 440px; */
   transform:rotateY(180deg)

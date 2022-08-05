@@ -40,7 +40,7 @@ function SrvcCardMbl() {
         duration:"45 minutes"},
   ]
   return (
-    <div className="SrvcCardMbl md:hidden border flex flex-wrap justify-around">
+    <div className="SrvcCardMbl md:hidden flex flex-wrap justify-around">
        {services.map((srv)=> (<ServiceItem key= {srv.name} name={srv.name} description={srv.description} price={srv.price} duration={srv.duration} img={srv.img}/>))}
 
        

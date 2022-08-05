@@ -4,7 +4,7 @@ function TestCard(props) {
   return (
     <div
     style={{ boxShadow:"0px 8px 0px #B3D4CE"}}
-    className='lg:w-1/5 h-[23rem] rounded-[32.69px] inline-block bg-test bg-no-repeat  mx-4 bg-[#E6EAF2]  '
+    className='lg:w-1/5 h-[20rem] rounded-[32.69px] inline-block bg-test bg-no-repeat  mx-4 bg-[#E6EAF2]  '
     >
          <svg className="testSvg   mt-6 ml-6" width="50" height="50" viewBox="0 0 50 50" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -20,7 +20,7 @@ function TestCard(props) {
                                 </clipPath>
                             </defs>
          </svg>
-         <div className='whitespace-pre-line border-2  border-black mt-14 '>
+         <div className='whitespace-pre-line  mt-10 p-2 '>
             <p>{props.msg}</p>
             <p className="text-right">{props.name}</p>
         

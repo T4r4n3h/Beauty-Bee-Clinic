@@ -26,7 +26,7 @@ function ServiceSection() {
     },
     {
         name:"Vitamin Injection", 
-        description:"",
+        description:"Vitamin B12 is also called the ‘energy vitamin’. It considered the most versatile of all vitamins due to its vast range of fundamental nerve functions, processing carbs and fats, forming red blood cells, and producing DNA Vitamin B12 has positive effects on both body and mind.",
         img:"../../public/img/vitamineInjection.png",
         price:"", 
         duration:"30 minutes"
