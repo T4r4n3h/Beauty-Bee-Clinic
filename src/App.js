@@ -10,8 +10,8 @@ import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
-    <div className="App mx-2">
-      <div className="container  mx-auto">
+    <div className="App mx-2 lg:mx-12">
+      <div className="  mx-auto">
         <Header/>
         <Billboard/>
         <ServiceSection/>

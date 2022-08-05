@@ -4,6 +4,8 @@ function Slider() {
     const slidess = [1,2,3,4,5]
     const slides =[
       {id:1, name: '"Jenn"', msg:'I just wanted to say thank you! I have had no bruising and results so far are amazing'},
+      {id:1, name: '"Jenn"', msg:'I just wanted to say thank you! I have had no bruising and results so far are amazing'},
+      {id:1, name: '"Jenn"', msg:'I just wanted to say thank you! I have had no bruising and results so far are amazing'},
       {id:2, name: '"Shilah"', msg:'I saw you on Monday 😊	I did not bruise. The swelling has gone down and I love the work you did!!! I am so happy with the outcome. You literally perfected the look I wanted I will definitely be booking with you again'},
       {id:3, name: '"Min"', msg:'I really love it! I keep looking at it;) Very light but I notice and I really like '},
       {id:4, name: 'no', msg:'blah blah blah blah blah blah blah blah blah blah blah blahh blah blah blah blah blah blah blahh blah blah blah blah blah blah blahh blah blah blah blah blah blah blahh blah blah blah blah blah blah blah blah blah blah blah blah'},
