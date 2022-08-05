@@ -4,23 +4,24 @@ import NavMbl from "./NavMbl";
 
 const Header = () => {
   const [menuClass, setMenuClass] = useState("hide");
-  const [burger, setBurger] = useState("mt-2 w-6 h-7");
+  const [burger, setBurger] = useState("show");
   const [drop, setDrop] = useState("hide");
 
-  const hideMenu = () => {
-    console.log("you are clicking on back button");
+  const hideMenu = () => {    
+    if (menuClass === "showMenu") {
     setMenuClass("hide");
     setBurger("show");
-    setDrop("hide");
+    // setDrop("hide");
+    }
+
   };
 
   const showMenu = () => {
-    console.log("this is to show");
-    // if(menuClass === "showMenu)  {
-    //   console.log(`this is the menuClass: ${menuClass}`);
-    // }
-    // setMenuClass("showMenu");
-    // setBurger("hide");
+     if(menuClass === "hide")  {
+       setMenuClass("showMenu");
+      setBurger("hide");
+
+    }
     // setDrop("");
   };
 
@@ -72,7 +73,7 @@ const Header = () => {
               d="M4 6h16M4 12h16M4 18h16"
             />
           </svg>
-          <svg className={drop}
+          {/* <svg className={drop}
             width="24"
             height="30"
             viewBox="0 0 24 38"
@@ -97,11 +98,11 @@ const Header = () => {
               stroke="#54301A"
               strokeWidth="1.5"
             />
-          </svg>
+          </svg> */}
         </button>
       </div>
 
-      {/* <NavMbl showMenu={menuClass} hideMenu={hideMenu}/> */}
+      <NavMbl showMenu={menuClass} hideMenu={hideMenu} menuClass={menuClass} />
     </div>
   );
 };
