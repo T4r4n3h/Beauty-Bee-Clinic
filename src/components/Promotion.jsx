@@ -13,7 +13,7 @@ function Promotion() {
              }}
              >
 
-              <a href="https://calendly.com" target="_blank"className="" id=""> Book Now</a>
+              <a href="https://calendly.com" rel="noreferrer" target="_blank"className="" id=""> Book Now</a>
           
              </button>
             </div>

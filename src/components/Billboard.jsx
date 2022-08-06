@@ -13,8 +13,8 @@ function Billboard() {
              }}
              >
 
-              <a href="https://calendly.com" target="_blank"className=" md:hidden" id=""> Book Now</a>
-              <a href="https://calendly.com" target="_blank"className="hidden md:block lg:text-2xl" id=""> Book Your Appointment</a>
+              <a href="https://calendly.com" target="_blank" rel="noreferrer" className=" md:hidden" id=""> Book Now</a>
+              <a href="https://calendly.com" target="_blank" rel="noreferrer" className="hidden md:block lg:text-2xl" id=""> Book Your Appointment</a>
              </button>
             
         </div>

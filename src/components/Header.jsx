@@ -5,7 +5,7 @@ import NavMbl from "./NavMbl";
 const Header = () => {
   const [menuClass, setMenuClass] = useState("hide");
   const [burger, setBurger] = useState("show");
-  const [drop, setDrop] = useState("hide");
+  // const [drop, setDrop] = useState("hide");
 
   const hideMenu = () => {    
     if (menuClass === "showMenu") {
