@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Beauty-Bee-Clinic/static/css/main.dda1a0c4.css",
-    "main.js": "/Beauty-Bee-Clinic/static/js/main.db5da958.js",
+    "main.js": "/Beauty-Bee-Clinic/static/js/main.37d8bfeb.js",
     "static/media/ChryBlsm.png": "/Beauty-Bee-Clinic/static/media/ChryBlsm.978bbd08e2c9684a7054.png",
     "static/media/botox.png": "/Beauty-Bee-Clinic/static/media/botox.628f18d94646d537f5d2.png",
     "static/media/TypoRoundBoldItalicDemo-26Dv.ttf": "/Beauty-Bee-Clinic/static/media/TypoRoundBoldItalicDemo-26Dv.220be06b364874151e00.ttf",
@@ -14,10 +14,10 @@
     "static/media/filler.png": "/Beauty-Bee-Clinic/static/media/filler.d2730b7b230aa19f2a3a.png",
     "index.html": "/Beauty-Bee-Clinic/index.html",
     "main.dda1a0c4.css.map": "/Beauty-Bee-Clinic/static/css/main.dda1a0c4.css.map",
-    "main.db5da958.js.map": "/Beauty-Bee-Clinic/static/js/main.db5da958.js.map"
+    "main.37d8bfeb.js.map": "/Beauty-Bee-Clinic/static/js/main.37d8bfeb.js.map"
   },
   "entrypoints": [
     "static/css/main.dda1a0c4.css",
-    "static/js/main.db5da958.js"
+    "static/js/main.37d8bfeb.js"
   ]
 }
