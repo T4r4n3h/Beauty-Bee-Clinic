@@ -17,7 +17,7 @@ function ServiceCardSection() {
                             <h3 className="srvHeader font-bold text-2xl text-center">Neurotoxin Injections</h3>
                            
                             <button className="LrnBtn text-[#C2B6D4] font-black text-center w-full mt-4">LEARN MORE 
-                                <svg className='inline font-black ml-2'  width="16" height="16" viewBox="0 0 16 16" fill="none"      xmlns="http://www.w3.org/2000/svg">
+                                <svg className='inline font-black ml-2'  width="16" height="16" viewBox="0 0 16 16" fill="none"xmlns="http://www.w3.org/2000/svg">
                                     <path d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z" fill="#C2B6D4"/>
                                 </svg>
                             </button>
@@ -28,8 +28,22 @@ function ServiceCardSection() {
                     <p className='font-normal'>
                             Botox injections block certain chemical signals from nerves, mostly signals that cause muscles to contract. The most common use of these injections is to temporarily relax the facial muscles that cause wrinkles in the forehead and around the eyes.
                         </p>
-                        <h3 className="font-bold ">Price</h3>
-                    
+                        {/* <h3 className="font-bold ">Price</h3> */}
+                        
+                    <button
+                    className='btn bg-btn-blue rounded-full '
+                    style={{boxShadow:"0px 8px 0px #C2B6D4"}}
+                    > 
+                  
+                    <a href="https://calendly.com" target="_blank" rel="noreferrer" className="" id=""> Book Appointment</a>
+                    </button>
+                    <button
+                    className='btn bg-btn-blue rounded-full '
+                    style={{boxShadow:"0px 8px 0px #C2B6D4"}}
+                    > 
+                  
+                    <a href="tel:+1647-223-1975" rel="noreferrer" className="" id="">Call for Consultation</a>
+                    </button>
                     </div>
                 </div>
             </div>
