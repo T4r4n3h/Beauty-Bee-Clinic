@@ -1,7 +1,7 @@
 import React from 'react'
 import TestCard from './TestCard'
 function Slider() {
-    const slidess = [1,2,3,4,5]
+    // const slidess = [1,2,3,4,5]
     const slides =[
       
       {id:1, name: '"Jenn"', msg:'I just wanted to say thank you! I have had no bruising and results so far are amazing'},
