@@ -7,7 +7,7 @@ function ServiceItem(props) {
         boxShadow:"0px 8px 0px #B3D4CE"
     }}
     className='w-4/5 h-20 mt-4 rounded-3xl bg-btn-blue'>
-        <a href="https://calendly.com" target="_blank" rel="noreferrer">
+        <a href="https://calendly.com/melavimelavi/30min" target="_blank" rel="noreferrer">
           <h3 className="srvHeader font-bold text-lg mt-6 text-center">{props.name}</h3>
         </a>
        </div>
