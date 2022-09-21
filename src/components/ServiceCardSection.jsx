@@ -23,27 +23,27 @@ function ServiceCardSection() {
                             </button>
                         </div>
                     </div>
-                    <div className="back h-full bottom-[440px] p-10">
+                    <div className="back bottom-[440px] p-10">
                     
                     <p className='font-normal'>
                             Botox injections block certain chemical signals from nerves, mostly signals that cause muscles to contract. The most common use of these injections is to temporarily relax the facial muscles that cause wrinkles in the forehead and around the eyes.
                         </p>
                         {/* <h3 className="font-bold ">Price</h3> */}
                         
-                    <button
-                    className='btn bg-btn-blue rounded-full '
-                    style={{boxShadow:"0px 8px 0px #C2B6D4"}}
-                    > 
-                  
-                    <a href="https://calendly.com" target="_blank" rel="noreferrer" className="" id=""> Book Appointment</a>
-                    </button>
-                    <button
-                    className='btn bg-btn-blue rounded-full '
-                    style={{boxShadow:"0px 8px 0px #C2B6D4"}}
-                    > 
-                  
-                    <a href="tel:+1647-223-1975" rel="noreferrer" className="" id="">Call for Consultation</a>
-                    </button>
+                        <div className="Buttons flex justify-between mt-16">
+                            <button
+                            className='btn bg-btn-blue rounded-full w-fit px-4 py-2 '
+                            style={{boxShadow:"0px 8px 0px #C2B6D4"}}
+                            >
+                            <a href="https://calendly.com/melavimelavi/neurotoxin-botox" target="_blank" rel="noreferrer" className="" id=""> Book Appointment</a>
+                            </button>
+                            <button
+                            className='btn bg-btn-blue rounded-full px-4 py-2 '
+                            style={{boxShadow:"0px 8px 0px #C2B6D4"}}
+                            >
+                            <a href="tel:+1647-223-1975" rel="noreferrer" className="" id="">Call for Consultation</a>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -67,11 +67,25 @@ function ServiceCardSection() {
                             </button>
                         </div>
                     </div>
-                    <div className="back h-full  bottom-[200px] px-10">
+                    <div className="back  bottom-[200px] px-10">
                         <p className='font-normal'>
                         Dermal fillers are gel-like substances injected under the skin. Dermal fillers are meant to create a smoother or fuller appearance, or both.
                         </p>
-                        <h3 className="font-bold ">Price</h3>
+                           
+                        <div className="Buttons flex justify-between mt-16">
+                            <button
+                            className='btn bg-btn-blue rounded-full w-fit px-4 py-2 '
+                            style={{boxShadow:"0px 8px 0px #C2B6D4"}}
+                            >
+                            <a href="https://calendly.com/melavimelavi/derma-filler-60-min" target="_blank" rel="noreferrer" className="" id=""> Book Appointment</a>
+                            </button>
+                            <button
+                            className='btn bg-btn-blue rounded-full px-4 py-2 '
+                            style={{boxShadow:"0px 8px 0px #C2B6D4"}}
+                            >
+                            <a href="tel:+1647-223-1975" rel="noreferrer" className="" id="">Call for Consultation</a>
+                            </button>
+                        </div>
                     </div>
                 </div>
                 
@@ -98,11 +112,24 @@ function ServiceCardSection() {
                             </div>
                             
                         </div>
-                            <div className="back h-full bottom-[200px] px-10">
+                            <div className="back  bottom-[200px] px-10">
                             <p className='font-normal'>
                             Vitamin B12 is also called the ‘energy vitamin’. It considered the most versatile of all vitamins due to its vast range of fundamental nerve functions, processing carbs and fats, forming red blood cells, and producing DNA Vitamin B12 has positive effects on both body and mind.
                               </p>
-                        <h3 className="font-bold ">Price</h3>
+                                <div className="Buttons flex justify-between mt-10">
+                                    <button
+                                    className='btn bg-btn-blue rounded-full w-fit px-4 py-2 '
+                                    style={{boxShadow:"0px 8px 0px #C2B6D4"}}
+                                    >
+                                    <a href="https://calendly.com/melavimelavi/vitamin-injections-30" target="_blank" rel="noreferrer" className="" id=""> Book Appointment</a>
+                                    </button>
+                                    <button
+                                    className='btn bg-btn-blue rounded-full px-4 py-2 '
+                                    style={{boxShadow:"0px 8px 0px #C2B6D4"}}
+                                    >
+                                    <a href="tel:+1647-223-1975" rel="noreferrer" className="" id="">Call for Consultation</a>
+                                     </button>
+                                 </div>
                             </div>
                         
                     </div>
@@ -137,7 +164,20 @@ function ServiceCardSection() {
                         <p className="font-normal">
                         Fat-dissolving treatment, also known as lipolytic injections, is a simple and non-invasive cosmetic procedure that uses injections to target fat deposits in the body. These injections use Deoxycholic acids, a synthetic form of naturally-occurring acids in the body.
                         </p>
-                        <h3 className="font-bold ">Price</h3>
+                        <div className="Buttons mt-10">
+                                    <button
+                                    className='btn bg-btn-blue rounded-full  px-4 py-2  '
+                                    style={{boxShadow:"0px 8px 0px #C2B6D4"}}
+                                    >
+                                    <a href="https://calendly.com/melavimelavi/fat-dissolving-solution-45-min" target="_blank" rel="noreferrer" className="" id=""> Book Appointment</a>
+                                    </button>
+                                    <button
+                                    className='btn bg-btn-blue rounded-full px-4 py-2 mt-10 '
+                                    style={{boxShadow:"0px 8px 0px #C2B6D4"}}
+                                    >
+                                    <a href="tel:+1647-223-1975" rel="noreferrer" className="" id="">Call for Consultation</a>
+                                     </button>
+                                 </div>
                         </div>
                     </div>
 
@@ -167,7 +207,25 @@ function ServiceCardSection() {
                             This is a technique used to improve the texture of the skin. It is intended to remove the outermost layer of the skin.To accomplish this task, the chosen  peel solution induces a controlled injury to the skin. Resulting wound healing processes begin to regenerate new tissues. The dead skin eventually peels off.
                                
                             </p>
-                            <h3 className="font-bold ">Price</h3>
+                           
+                            <div className="Buttons mt-10 ">
+                                    <button
+                                    className='btn bg-btn-blue rounded-full  px-4 py-2  '
+                                    style={{boxShadow:"0px 8px 0px #C2B6D4"}}
+                                    >
+                                    <a href="https://calendly.com/melavimelavi/chemical-peels-30-min" target="_blank" rel="noreferrer" className="" id=""> Book Appointment</a>
+                                    </button>
+                                    <button
+                                    className='btn bg-btn-blue rounded-full px-4 py-2 mt-10 '
+                                    style={{boxShadow:"0px 8px 0px #C2B6D4"}}
+                                    >
+                                    <a href="tel:+1647-223-1975" rel="noreferrer" className="" id="">Call for Consultation</a>
+                                     </button>
+                                 </div>
+
+
+
+
                             </div>
                         </div>
                 </div>
